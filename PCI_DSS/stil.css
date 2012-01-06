@@ -1,0 +1,270 @@
+body
+{
+	background-color: #eeffff;
+}
+h1, h2
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #000066;
+}
+
+p.index
+{
+	line-height: 400%;
+	padding-top: 60px;
+}
+
+p.o_normi
+{
+	text-indent: 50px;
+}
+
+p, li
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #000055;
+}
+
+li.bold
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #000055;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+tr.bold
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+}
+
+#container
+{
+width: 65%;
+min-width:860px;
+margin: 10px auto;
+}
+
+
+#header
+{
+	background-color: #555577;
+
+	padding:5px;
+	padding-left: 15px;
+}
+
+#header_provjera
+{
+	background-color: #9999cc;
+	padding:4px;
+	padding-left: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-top: -10px;
+	margin-left: -25px;
+	margin-right: -25px;
+}
+
+
+#content
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	padding: 25px;
+	padding-top: 10px;
+	width: auto;
+	min-height: 400px;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	border: 1px dotted #00F;
+	
+} 
+
+#footer
+{
+	margin: 0;
+	padding: 2px;
+	color: #BBF;
+	text-align: center;
+	border-top: 1px solid gray;
+	background-color: #555577;
+} 
+
+#registration, #login
+{
+	margin: 20px auto;
+	margin-top: 70px;
+	width: 375px;
+	border:3pt inset #9999FF;
+	border-radius: 15px;
+	background-color: #DDDDFF;
+}
+
+
+
+a.menu, .signup, .submit
+{
+	border: 5px inset #99F;
+	border-radius: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-right: 7px;
+	background-color: #bbbbFF;
+	text-decoration: none;
+	color: #000066;
+	
+}
+
+a:hover.menu, :hover.signup, :hover.submit
+{
+	border: 5px outset #55F;
+	border-radius: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-right: 7px;
+	background-color: #000066;
+	text-decoration: none;
+	color: #BBBBFF;
+}
+
+a.menu_zahtjevi, a:hover.menu_zahtjevi_trenutni
+{
+	border: 3px outset #55F;
+	border-radius: 20px;
+	padding-top: 3px;
+	width: 30px;
+	height: 27px;
+	margin-right: 7px;
+	background-color: #000066;
+	text-decoration: none;
+	color: #BBBBFF;
+	text-align: center;
+	float:left;
+}
+
+a:hover.menu_zahtjevi, a.menu_zahtjevi_trenutni
+{
+	border: 3px inset #99F;
+	border-radius: 20px;
+	padding-top: 3px;
+	width: 30px;
+	height: 27px;
+	margin-right: 7px;
+	background-color: #bbbbFF;
+	text-decoration: none;
+	color: #000066;
+	text-align: center;
+	float:left;
+}
+
+a.zahtjev_button, a:hover.zahtjev_button_trenutni
+{
+	border: 3px outset #55F;
+	border-radius: 20px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	height: 27px;
+	margin-right: 15px;
+	margin-left: 15px;
+	background-color: #000066;
+	text-decoration: none;
+	color: #BBBBFF;
+	float:left;
+}
+
+a:hover.zahtjev_button, a.zahtjev_button_trenutni
+{
+	border: 3px inset #99F;
+	border-radius: 20px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	height: 27px;
+	margin-right: 15px;
+	margin-left: 15px;
+	background-color: #bbbbFF;
+	text-decoration: none;
+	color: #000066;
+	float:left;
+}
+
+a.menu, a:hover.menu,.pic
+{
+	float:left;	
+}
+
+a.signup, a:hover.signup, .user
+{
+	float: right;	
+}
+
+.user
+{
+	margin: 7px;
+	margin-right: 25px;
+	color: #B8B8FA;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.pic
+{
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.yesno
+{
+	margin-bottom: -10px;
+}
+
+.lista_zahtjeva
+{
+	margin-left: 90px;
+}
+
+td 
+{
+	padding:3px;
+	padding-top: 7px;
+	border-bottom:1pt dotted #000066;	
+}
+
+input[type=text], input[type=password]
+{
+	width:220px;
+}
+
+.tablica_zahtjeva
+{
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #000055;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.margin_bottom
+{
+	margin-bottom: 15px;
+}
+
+.treca
+{
+	width: 100px;
+}

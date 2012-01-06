@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `trgovci` (
+  `kor_ime` varchar(20) NOT NULL,
+  `ime` varchar(20) NOT NULL,
+  `prezime` varchar(20) NOT NULL,
+  `lozinka` varchar(20) NOT NULL,
+  `naziv_poduzeca` varchar(50) NOT NULL,
+  `zahtjev1` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev2` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev3` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev4` varchar(40) NOT NULL default 'NNNNNNNN',
+  `zahtjev5` varchar(40) NOT NULL default 'NNNNNN',
+  `zahtjev6` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev7` varchar(40) NOT NULL default 'NNNNNNN',
+  `zahtjev8` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev9` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev10` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev11` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNN',
+  `zahtjev12` varchar(40) NOT NULL default 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN',
+  PRIMARY KEY  (`kor_ime`)
+)
